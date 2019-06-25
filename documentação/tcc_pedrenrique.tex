@@ -73,7 +73,7 @@
 % --- 
 % CONFIGURAÇÕES DE PACOTES
 % --- 
-
+\graphicspath{ {images/} } %definindo localização das imagens
 % ---
 % Configurações do pacote backref
 % Usado sem a opção hyperpageref de backref
@@ -496,11 +496,24 @@ Como parte essencial para o entendimento do trabalho, este capítulo irá tratar
 
 \section{Computação em nuvem}\label{sec_comp_nuv}
 
-Em 2011, o \emph{Information Technology Laboratory} (ITL), que faz parte \emph{National Institute of Standards and Technology} (NIST), uma agência governamental que promove a utilização de padrões em ambientes de tecnologia da informação, lançou um documento que define a computação em nuvem como ``um modelo que permite acesso ubíquo, conveniente e sob demanda para uma gama de recursos computacionais compartilhados que podem ser provisionados e liberados com o mínimo de esforço ou interação do provedor de serviço.'' \cite{mell2011nist} (Tradução adaptada pelo autor).
+O termo computação em nuvem tem diferentes significados na literatura, e alguns exemplos podem ser mencionados. Em artigo publicado em \citeyear{fernando2013mobile}, \citeauthor{fernando2013mobile} afirmam que consumidores veem computação em nuvem como um serviço padronizado acessível por meio de um aparelho conectado à Internet. Por outro lado, outro artigo de \citeyear{mazhelis2012economic}, \citeauthor{mazhelis2012economic} alegam que profissionais de Tecnologia da Informação veem computação em nuvem como uma \emph{pool} de recursos compartilhados acessados por ambientes computacionais. \cite[p. 1]{khan2018cloud}
 
-O documento também prevê cinco características essenciais, três modelos de serviço e quatro modelos de implementação que definem o ambiente de computação em nuvem, que serão descritas nas subseções a seguir, de acordo com as definições propostas.
+De uma forma geral, pode-se representar um exemplo de infraestrutura básica da computação em nuvem como definida na Figura \ref{fig:compnuvem}.
+
+\begin{figure}[h]
+	\caption{Exemplo de infraestrutura de computação em nuvem adaptado pelo autor, segundo \citeauthor{marston2011cloud}, \citeyear{marston2011cloud}.}
+	\includegraphics[scale=0.5]{compnuvem}
+	\centering
+	\label{fig:compnuvem}
+\end{figure}
+
+Em 2011, o \emph{Information Technology Laboratory} (ITL), que faz parte \emph{National Institute of Standards and Technology} (NIST), uma agência governamental que promove a utilização de padrões em ambientes de tecnologia da informação, lançou um documento que define a computação em nuvem como ``um modelo que permite acesso ubíquo, conveniente e sob demanda para uma gama de recursos computacionais compartilhados que podem ser provisionados e liberados com o mínimo de esforço ou interação do provedor de serviço.'' \cite[p. 2]{mell2011nist} (Tradução adaptada pelo autor).
+
+O documento também prevê cinco características essenciais, três modelos de serviço e quatro modelos de implementação que definem o ambiente de computação em nuvem, que serão descritas nas subseções a seguir, de acordo com as definições propostas no documento.
 
 \subsection{Características essenciais}
+
+O documento define as seguintes características essenciais para ambientes de computação em nuvem:
 \begin{itemize}
 	\item \textbf{Atendimento sob demanda:} O consumidor pode requisitar as operações do serviço em tempo real, como armazenamento de dados por exemplo, sem necessidade de interação humana com o provedor de serviços.
 	\item \textbf{Amplo acesso à rede:} Os serviços são disponibilizados por meio do acesso à internet, utilizando mecanismos padronizados que permitam o acesso utilizando diferentes plataformas, como celulares, \emph{notebooks}, \emph{tablets}, \emph{desktops} etc.
@@ -510,6 +523,8 @@ O documento também prevê cinco características essenciais, três modelos de s
 \end{itemize}
 
 \subsection{Modelos de serviço}
+
+Os modelos de serviço definidos no documento estão descritos a seguir, com tradução e adaptação pelo autor:
 
 \begin{itemize}
 	\item \textbf{\emph{Software as a Service (SaaS)}:} O recurso computacional é disponibilizado para o consumidor como uma aplicação executada em infraestrutura na nuvem. Essa aplicação pode ser acessada de diversos dispositivos, podendo-se utilizar um navegador de internet, ou até mesmo uma aplicação própria. O consumidor, neste caso, não tem nenhum controle sobre os servidores, sistemas operacionais, armazenamento ou aplicações que fazem parte da infraestrutura da rede, limitando-se apenas àquilo que lhe foi designado como serviço disponível.
@@ -529,13 +544,23 @@ O documento também prevê cinco características essenciais, três modelos de s
 
 \subsection{Aplicações na indústria}
 
+Existem inúmeras aplicações de computação em nuvem na indústria, que variam de acordo com a natureza da indústria e sua carga de trabalho \cite[p. 10]{khan2018cloud}.
+
+Nesta seção, serão apresentados alguns serviços mais conhecidos e relevantes de computação em nuvem, mas não necessariamente são os únicos disponíveis.
+
 \subsubsection{\emph{Amazon Web Services (AWS)}}
 
-\subsubsection{Dropbox}
+Amazon Web Services (AWS) \cite{aws} é um conjunto de serviços de nuvem, que fornecem computação baseada em nuvem, armazenamento e outras aplicações que atendem tanto o aspecto corporativo quanto a usuários individuais. Nesse ambiente, usuários podem implementar aplicações e serviços sob demanda, pagando de acordo com o uso. \cite[p. 13]{zhang2010cloud}
 
-\subsubsection{Netflix}
+Neste contexto, a Amazon disponibiliza também o serviço conhecido como \emph{\textbf{Amazon Elastic Compute Cloud}}, também chamado de \textbf{Amazon EC2}. Segundo o próprio serviço: ``O Amazon Elastic Compute Cloud (Amazon EC2) é um web service que disponibiliza capacidade computacional segura e redimensionável na nuvem. Ele foi projetado para facilitar a computação em nuvem na escala da web para os desenvolvedores.'' \cite{amazonec2}. Tal plataforma permite que o usuário administre servidores e \emph{data centers} utilizando APIs ou ferramentas e utilitários disponíveis. As instâncias da EC2 são máquinas virtuais sendo executadas dentro da engine de virtualização Xen \cite{xenengine} \cite{zhang2010cloud}.
+
+A estrutura da AWS também comporta serviços como o Amazon Virtural Private Cloud (VPC), que se comporta como uma rede privada virtual (VPN), utilizando os recursos da AWS para permitir uma segurança adicional para o usuário final, com serviços de firewall, detecção de intrusão, entre outros serviços.
 
 \subsubsection{Microsoft Azure}
+
+A plataforma Microsoft Azure, antigamente chamada de Microsoft Windows Azure, consiste em uma plataforma da própria Microsoft para executar aplicações e armazenar dados na nuvem \cite{chappell2009introducing}. Os produtos permitem o armazenamento de dados em nuvem, execução de aplicações, gerenciamento de contâineres, APIs de detecção facial, ferramentas de testes para desenvolvedores, entre outras aplicações \cite{microsoftazure}.
+
+Os serviços do Microsoft Azure têm sido utilizados em diversas áreas distintas, como geoprocessamento \cite{gong2010geoprocessing}, predição de estruturas de proteínas em 3D \cite{mrozek2015scaling}, utilização de aprendizado de máquina em pesquisa de radiologia \cite{kohli2017implementing}, entre outras tantas aplicações disponíveis na literatura.
 
 \section{Tolerância a falhas}
 
@@ -543,7 +568,7 @@ O uso de sistemas computacionais é ubíquo no mundo moderno, extendendo-se a ap
 
 Um exemplo de preocupação com o funcionamento adequado desses sistemas ocorreu no fim da década de 1990, quando percebeu-se o modo ineficiente de armazenamento e formatação de datas de calendários em sistemas computacionais da época, e que colocaria em risco a correta execução de milhares de serviços dependentes desses sistemas, podendo também ocasionar uma pane geral de alguns sistemas de alto risco. Tal episódio é conhecido na literatura como ``Problema do Ano 2000'', muitas vezes estilizado como ``Y2K \emph{problem}'', ou popularmente chamado de ``\emph{Bug} do Milênio'' . A preocupação com uma pane em massa de praticamente todos os sistemas computacionais levou a criação de uma série de medidas para garantir a correção desse problema nos sistemas existentes e prevenir a ocorrência de problemas similares em futuros sistemas desenvolvidos \cite{petersen1998y2k}.
 
-Este clássico exemplo de prevenção de falhas mostra uma fraqueza de alguns sistemas computacionais em lidar com falhas previstas anteriormente. Caso tais correções e recomendações não fossem consideradas, especula-se que as consequências poderiam ser catastróficas para os mais diversos setores que dependiam desses sistemas computacionais \cite{smith1997year}. Assim sendo, deve-se levar em consideração que existem problemas aos quais sistemas computacionais estão sujeitos, mas que podem ser tratados adequadamente em tempo de execução, evitando ao máximo comprometer o funcionamento desse sistema. 
+Este clássico exemplo de prevenção de falhas mostra uma fraqueza de alguns sistemas computacionais em lidar com falhas previstas anteriormente. Caso tais correções e recomendações não fossem consideradas, especula-se que as consequências poderiam ser catastróficas para os mais diversos setores que dependiam desses sistemas computacionais \cite{smith1997year}. Assim sendo, deve-se levar em consideração que existem problemas aos quais sistemas computacionais estão sujeitos, mas que podem ser tratados adequadamente em tempo de execução, evitando ao máximo comprometer o funcionamento desse sistema.
 
 \subsection{Conceitos básicos}
 
@@ -574,6 +599,7 @@ Tal conceito em computação é bastante antigo e se aplica tanto no âmbito do 
 \subsection{Aplicações}
 
 
+\subsection{}
 
 % ---
 
@@ -593,7 +619,7 @@ INSERIR DIAGRAMA AQUI..
 
 O uso de tecnologias de recomendação é bastante presente em plataformas de computação em nuvem, e mostram-se bastante eficazes na arte de influenciar o usuário final a tomar uma decisão baseada naquilo que lhe é sugerido. Um bom exemplo do uso de sistemas de recomendação nesse âmbito é o algoritmo de recomendação de vídeos utilizado pelo YouTube. Um estudo realizado em 2010 \cite{zhou2010impact}, mostra uma correlação entre o sistema de recomendação de vídeos do YouTube e as visualizações de cada vídeo afetado.
 
-Sistemas como esse também são amplamente utilizados na área do comércio virtual, mais conhecido como \emph{e-commerce}, fazendo a sugestão de produtos e anúncios para usuários que demonstram interesses em determinadas categorias pela internet. No decorrer desta sessão, será discutido de forma mais aprofundada sobre essa área de utilização, e serão apresentados modelos de negócios específicos que utilizam sistemas de recomendação e detalhes desses sistemas. %Utilizando dados coletados de usuários finais através de pesquisas online, a Google consegue construir um sistema eficiente de recomendação e fornecer informações para outros sites que possam se aproveitar desses dados. (fontes)
+Sistemas como esse também são amplamente utilizados na área do comércio virtual, mais conhecido como \emph{e-commerce}, fazendo a sugestão de produtos e anúncios para usuários que demonstram interesses em determinadas categorias pela internet. No decorrer desta sessão, será discutido de forma mais aprofundada sobre essa área de utilização, e serão apresentados modelos de negócios específicos que utilizam sistemas de recomendação e detalhes desses sistemas.
 
 O uso de um sistema de recomendação varia de acordo com o modelo de negócio utilizados e sua plataforma necessária para funcionamento.
 
