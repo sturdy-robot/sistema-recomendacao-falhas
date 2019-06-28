@@ -15,7 +15,10 @@
    version="1.1"
    id="svg1096"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="src_arqcompnuvem.svg">
+   sodipodi:docname="src_arqcompnuvem.svg"
+   inkscape:export-filename="/home/pedrug/Documentos/TCC/documentação/images/src_arqcompnuvem.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs1090">
     <inkscape:perspective
@@ -34,8 +37,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4752525"
-     inkscape:cx="530.53922"
-     inkscape:cy="884.30647"
+     inkscape:cx="267.65752"
+     inkscape:cy="840.22703"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,43 +65,236 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#00000d;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#c6e9af;fill-opacity:1;stroke:#00000d;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1200"
        width="83.038033"
        height="15.244566"
        x="66.767235"
-       y="35.331524" />
+       y="39.564861" />
     <rect
        y="58.61488"
        x="66.767235"
        height="15.244566"
        width="83.038033"
        id="rect1202"
-       style="fill:#ffffff;fill-opacity:1;stroke:#00000d;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#e9afaf;fill-opacity:1;stroke:#00000d;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#00000d;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffeeaa;fill-opacity:1;stroke:#00000d;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1206"
        width="83.038033"
        height="15.244566"
        x="66.767235"
-       y="81.369064" />
+       y="78.194061" />
     <rect
-       y="103.06491"
+       y="97.24408"
        x="66.767235"
        height="15.244566"
        width="83.038033"
        id="rect1208"
-       style="fill:#ffffff;fill-opacity:1;stroke:#00000d;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#afe9dd;fill-opacity:1;stroke:#00000d;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="98.302185"
-       y="43.931339"
+       y="48.164677"
        id="text1212"><tspan
          sodipodi:role="line"
          id="tspan1210"
          x="98.302185"
-         y="43.931339"
+         y="48.164677"
          style="stroke-width:0.26458332">Aplicações</tspan></text>
+    <text
+       id="text297"
+       y="67.743858"
+       x="98.302185"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="67.743858"
+         x="98.302185"
+         id="tspan295"
+         sodipodi:role="line">Plataformas</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="96.185516"
+       y="85.735542"
+       id="text301"><tspan
+         sodipodi:role="line"
+         id="tspan299"
+         x="96.185516"
+         y="85.735542"
+         style="stroke-width:0.26458332">Infraestrutura</tspan></text>
+    <text
+       id="text305"
+       y="105.84387"
+       x="100.41887"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="105.84387"
+         x="100.41887"
+         id="tspan303"
+         sodipodi:role="line">Hardware</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="48.961956"
+       y="47.706516"
+       id="text309"><tspan
+         sodipodi:role="line"
+         id="tspan307"
+         x="48.961956"
+         y="47.706516"
+         style="stroke-width:0.26458332;-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">SaaS</tspan></text>
+    <text
+       id="text313"
+       y="67.285698"
+       x="48.961956"
+       style="font-style:normal;font-weight:bold;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif Bold';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332;-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;"
+         y="67.285698"
+         x="48.961956"
+         id="tspan311"
+         sodipodi:role="line">PaaS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:bold;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif Bold';font-stretch:normal;font-variant:normal;"
+       x="48.961956"
+       y="96.389893"
+       id="text317"><tspan
+         sodipodi:role="line"
+         id="tspan315"
+         x="48.961956"
+         y="96.389893"
+         style="stroke-width:0.26458332;-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;">IaaS</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.121398,39.56486 c -5.598528,0.205044 -1.953024,5.949031 -4.413865,7.284702 2.754382,3.181586 -1.0332,6.674889 4.413867,7.959863"
+       id="path319"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path321"
+       d="m 64.121398,58.614872 c -5.598528,0.205044 -1.953024,5.949031 -4.413865,7.284702 2.754382,3.181586 -1.0332,6.674889 4.413867,7.959863"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.755488,78.419824 c -5.598528,0.205044 -2.587114,15.777431 -5.047955,17.113102 2.754382,3.181586 -0.145474,15.615574 5.301593,16.900554"
+       id="path323"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="174.04901"
+       y="32.19202"
+       id="text327"><tspan
+         sodipodi:role="line"
+         id="tspan325"
+         x="174.04901"
+         y="32.19202"
+         style="stroke-width:0.26458332">Exemplos:</tspan></text>
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path329"
+       d="m 154.25141,39.56486 c 5.59856,0.205044 1.95304,5.949031 4.41389,7.284702 -2.7544,3.181586 1.03321,6.674889 -4.41389,7.959863"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 154.25141,58.085705 c 5.59856,0.205044 1.95304,5.949031 4.41389,7.284702 -2.7544,3.181586 1.03321,6.674889 -4.41389,7.959863"
+       id="path331"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <text
+       id="text339"
+       y="44.531513"
+       x="183.77588"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="44.531513"
+         x="183.77588"
+         id="tspan337"
+         sodipodi:role="line">Google Apps,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="48.941235"
+         x="183.77588"
+         sodipodi:role="line"
+         id="tspan343">Facebook,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="53.350956"
+         x="183.77588"
+         sodipodi:role="line"
+         id="tspan341">YouTube</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="183.77588"
+       y="61.99403"
+       id="text351"><tspan
+         id="tspan349"
+         sodipodi:role="line"
+         x="183.77588"
+         y="61.99403"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332">Microsoft Azure,</tspan><tspan
+         sodipodi:role="line"
+         x="183.77588"
+         y="66.403755"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan357">Amazon SimpleDB/S3,</tspan><tspan
+         sodipodi:role="line"
+         x="183.77588"
+         y="70.813477"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan359">Google AppEngine</tspan></text>
+    <text
+       id="text367"
+       y="81.573212"
+       x="183.77588"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan365"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="81.573212"
+         x="183.77588"
+         sodipodi:role="line">Amazon EC2,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="85.982933"
+         x="183.77588"
+         sodipodi:role="line"
+         id="tspan374">GoGrid,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="90.392654"
+         x="183.77588"
+         sodipodi:role="line"
+         id="tspan380">FlexiScale</tspan></text>
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path376"
+       d="m 154.25141,78.194051 c 5.59856,0.205044 1.95304,5.949031 4.41389,7.284702 -2.7544,3.181586 1.03321,6.674889 -4.41389,7.959863"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 154.25141,97.244063 c 5.59856,0.205044 1.95304,5.949047 4.41389,7.284727 -2.7544,3.1816 1.03321,6.67493 -4.41389,7.95991"
+       id="path378"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="183.77588"
+       y="105.91486"
+       id="text388"><tspan
+         id="tspan386"
+         sodipodi:role="line"
+         x="183.77588"
+         y="105.91486"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.26458332">DataCenters</tspan></text>
   </g>
 </svg>
